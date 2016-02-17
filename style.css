@@ -2,6 +2,7 @@ body {
     font-family:"Lucida Grande", verdana, helvetica, arial, sans-serif;
     background-color: #00FF99;
     background-image: url(img/background.jpg);
+    background-attachment: fixed;
     font-size:14px;
 }
 
