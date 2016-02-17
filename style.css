@@ -63,6 +63,9 @@ h1  {
     float:left;
     text-decoration: none;
 }
+.tile-box-big :hover {
+    opacity: 0.9;
+}
 .tile-box-small {
     display:block;
     background-color: #666;
@@ -113,11 +116,16 @@ h1  {
     display:block;
     background-color: #666;
     opacity: 0.6;
-    width:800px;
+    width:61%;
     height:100px;
     margin-top:30px;
     margin-right:130px;
     padding:10px;
     float:right;
     text-decoration: none;
+}
+
+.tiles-about {
+    display: inline-block;
+    width:65%;
 }
