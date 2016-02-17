@@ -56,7 +56,7 @@ h2 {
     text-decoration: none;
 }
 .tile-box-normal :hover {
-    opacity: 0.9;
+    opacity: 0.6;
 }
 .tile-box-big {
     display:block;
@@ -69,12 +69,12 @@ h2 {
     text-decoration: none;
 }
 .tile-box-big :hover {
-    opacity: 0.9;
+    opacity: 0.6;
 }
 .tile-box-small {
     display:block;
     background-color: #666;
-    opacity: 0.6;
+    opacity:0.6;
     width:75px;
     height:75px;
     margin:30px;
@@ -242,11 +242,12 @@ h3 {
      opacity: 0.6;
      float:right;
 }
+
 footer {
-    opacity: 0.6;
     width:100%;
     height:50px;
     background-color: #666;
     display:inline-block;
     padding:10px;
+    opacity: 0.6;
 }
