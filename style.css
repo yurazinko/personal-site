@@ -107,6 +107,10 @@ h1  {
     margin-top:130px; 
 }
 
+#about {
+    display:inline-block;
+    width:100%;
+}
 .personal-photo {
     height:400px;
     float:left;
@@ -117,7 +121,7 @@ h1  {
     display:block;
     background-color: #666;
     opacity: 0.6;
-    width:61%;
+    width:60%;
     height:100px;
     margin-top:30px;
     margin-right:130px;
@@ -129,4 +133,23 @@ h1  {
 .tiles-about {
     display: inline-block;
     width:65%;
+}
+
+#works {
+    display:inline-block;
+    width:100%;
+}
+
+#skills {
+    display:inline-block;
+    width:100%;
+}
+
+#books {
+    display:inline-block;
+    width:100%;
+}
+#contact {
+    display:inline-block;
+    width:100%;
 }
