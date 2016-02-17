@@ -96,6 +96,13 @@ h2 {
     margin-top:50px;
     margin-left:120px;
 }
+
+.tile-icon-small {
+    width:25px;
+    height:25px;
+    margin-top:25px;
+    margin-left:25px;
+}
 .tile-label {
     font-weight:bold;
     color:#ffffff;
@@ -109,6 +116,13 @@ h2 {
     position: absolute;
     margin-left:5px;
     margin-top:130px; 
+}
+.tile-label-small {
+    font-size:0.7em;
+    color:#ffffff;
+    position: absolute;
+    margin-left:5px;
+    margin-top:60px;  
 }
 
 #about {
@@ -179,4 +193,52 @@ text-description-main {
 #contact {
     display:inline-block;
     width:100%;
+}
+.block-first {
+    background-color: #666;
+    opacity: 0.6;
+    width:45%;
+    display:block;
+    float:left;
+    margin:30px;
+    padding:5px;
+}
+
+input {
+    width:500px;
+    padding:6px;
+    margin:10px;
+}
+textarea {
+    width:500px;
+    padding:6px;
+    margin:10px;
+}
+
+label {
+    margin-left:10px;
+    margin-bottom:15px;
+    color:#ffffff;
+}    
+
+.block-second{
+    background-color: #666;
+    opacity: 0.6;
+    width:45%;
+    display:block;
+    margin:30px;
+    float:right;
+}
+h3 {
+    color:#ffffff;
+    padding-left:10px;
+}
+.also-tile {
+    margin-right:30px;
+     height:50px;
+     width:45%;
+     display:block;
+     background-color: #666;
+     opacity: 0.6;
+     float:right;
 }
