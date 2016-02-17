@@ -20,7 +20,11 @@ h1  {
     margin-top:50px;
     color:#ffffff;  
 }
-
+h2 {
+    margin-top:20px;
+    margin-left:5px;
+    color:#ffffff;
+}
 .tile-label-long {
     position: absolute;
     margin-left:20px;
@@ -121,13 +125,18 @@ h1  {
     display:block;
     background-color: #666;
     opacity: 0.6;
-    width:60%;
+    width:61%;
     height:100px;
     margin-top:30px;
     margin-right:130px;
     padding:10px;
     float:right;
     text-decoration: none;
+}
+
+text-description-main {
+     color:#ffffff;
+     margin-top:30px;
 }
 
 .tiles-about {
@@ -140,6 +149,24 @@ h1  {
     width:100%;
 }
 
+.head-tile {
+    display:block;
+    background-color: #666;
+    opacity: 0.6;
+    width:600px;
+    height:50px;
+    margin:30px;
+    padding:10px;
+    text-decoration: none;
+}
+.tile-description {
+    font-size:0.8em;
+    position:absolute;
+    padding:5px;
+    margin-top:5px;
+    text-decoration: none;
+    color:#ffffff;
+}
 #skills {
     display:inline-block;
     width:100%;
