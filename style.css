@@ -234,11 +234,19 @@ h3 {
     padding-left:10px;
 }
 .also-tile {
-    margin-right:30px;
+     margin-right:30px;
      height:50px;
      width:45%;
      display:block;
      background-color: #666;
      opacity: 0.6;
      float:right;
+}
+footer {
+    opacity: 0.6;
+    width:100%;
+    height:50px;
+    background-color: #666;
+    display:inline-block;
+    padding:10px;
 }
