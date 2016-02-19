@@ -1,50 +1,75 @@
+/*BEGIN Global styles */
 body {
     font-family:"Lucida Grande", verdana, helvetica, arial, sans-serif;
     background-color: #00FF99;
     background-image: url(img/background.jpg);
     background-attachment: fixed;
     font-size:14px;
+    padding:30px;
 }
 
-nav {
-    background-color: #666;
-    opacity: 0.6;
-    font-weight:normal;
-    text-decoration: none;
-    display:inline-block;
+div {
+   
 }
 
-h1  {
-    position: absolute;
-    margin-left:20px;
-    margin-top:50px;
-    color:#ffffff;  
-}
-h2 {
-    margin-top:20px;
-    margin-left:5px;
+h1 {
     color:#ffffff;
 }
-.tile-label-long {
-    position: absolute;
-    margin-left:20px;
-    margin-top:17px;
-    color:#ffffff; 
+h2 {
+    color:#ffffff;
 }
+h3 {
+    color:#ffffff;
+}
+p {
+    color:#ffffff;
+}
+/*END Global styles */
 
+/*BEGIN Site blocks*/
 #long-tile {
     display:block;
     background-color: #666;
     opacity: 0.6;
-    width:600px;
+    width:60%;
     height:100px;
-    margin:30px;
     text-decoration: none;
 }
-#tile-menu{
+
+#tile-menu {
     width:100%;
     display:inline-block;
-  }
+}
+#about {
+    display:inline-block;
+    width:100%;
+}
+#works {
+    display:inline-block;
+    width:100%;
+}
+#skills {
+    display:inline-block;
+    width:100%;
+}
+#books {
+    display:inline-block;
+    width:100%;
+}
+#contact {
+    display:inline-block;
+    width:100%;
+}
+/* END site blocks*/
+
+/* BEGIN Styles for tile boxes */
+
+     /* Text in top: Hi, my name is Yurii Zinko and I am...*/
+.tile-label-long {
+    color:#ffffff; 
+}
+
+     /* Tile-boxes: "About", "Skills", "Books", "Contact" and "Github", "LinkedIn", "Facebook", "Location" */
 .tile-box-normal {
     display:block;
     background-color: #666;
@@ -58,6 +83,25 @@ h2 {
 .tile-box-normal :hover {
     opacity: 0.6;
 }
+
+.tile-icon {
+    position: absolute;
+    width:50px;
+    height:50px;
+    margin-top:50px;
+    margin-left:50px;
+}
+
+.tile-label {
+    font-weight:bold;
+    color:#ffffff;
+    position: absolute;
+    margin-left:5px;
+    margin-top:130px;
+}
+     /*END*/
+     
+     /* Tile-boxes "Works", "Books", "Proects" */
 .tile-box-big {
     display:block;
     background-color: #666;
@@ -71,24 +115,6 @@ h2 {
 .tile-box-big :hover {
     opacity: 0.6;
 }
-.tile-box-small {
-    display:block;
-    background-color: #666;
-    opacity:0.6;
-    width:75px;
-    height:75px;
-    margin:30px;
-    float:left;
-    text-decoration: none;
-}
-
-.tile-icon {
-    position: absolute;
-    width:50px;
-    height:50px;
-    margin-top:50px;
-    margin-left:50px;
-}
 
 .tile-icon-big {
     width:50px;
@@ -96,82 +122,12 @@ h2 {
     margin-top:50px;
     margin-left:120px;
 }
-
-.tile-icon-small {
-    width:25px;
-    height:25px;
-    margin-top:25px;
-    margin-left:25px;
-}
-.tile-label {
-    font-weight:bold;
-    color:#ffffff;
-    position: absolute;
-    margin-left:5px;
-    margin-top:130px;
-}
 .tile-label-big {
     font-weight:bold;
     color:#ffffff;
     position: absolute;
     margin-left:5px;
     margin-top:130px; 
-}
-.tile-label-small {
-    font-size:0.7em;
-    color:#ffffff;
-    position: absolute;
-    margin-left:5px;
-    margin-top:60px;  
-}
-
-#about {
-    display:inline-block;
-    width:100%;
-}
-.personal-photo {
-    height:400px;
-    float:left;
-    margin:30px;
-}
-.text-about-me {
-    color:#ffffff;
-    display:block;
-    background-color: #666;
-    opacity: 0.6;
-    width:61%;
-    height:100px;
-    margin-top:30px;
-    margin-right:130px;
-    padding:10px;
-    float:right;
-    text-decoration: none;
-}
-
-text-description-main {
-     color:#ffffff;
-     margin-top:30px;
-}
-
-.tiles-about {
-    display: inline-block;
-    width:65%;
-}
-
-#works {
-    display:inline-block;
-    width:100%;
-}
-
-.head-tile {
-    display:block;
-    background-color: #666;
-    opacity: 0.6;
-    width:600px;
-    height:50px;
-    margin:30px;
-    padding:10px;
-    text-decoration: none;
 }
 .tile-description {
     font-size:0.8em;
@@ -181,73 +137,39 @@ text-description-main {
     text-decoration: none;
     color:#ffffff;
 }
-#skills {
-    display:inline-block;
-    width:100%;
+     /* END */
+     
+     /* Social tile-boxes */
+.tile-box-small {
+    display:block;
+    background-color: #666;
+    opacity:0.6;
+    width:75px;
+    height:75px;
+    margin:30px;
+    text-decoration: none;
 }
 
-#books {
-    display:inline-block;
-    width:100%;
+.tile-icon-small {
+    width:25px;
+    height:25px;
+    margin:25px;
 }
-#contact {
-    display:inline-block;
-    width:100%;
+
+
+.tile-label-small {
+    font-size:0.7em;
+    color:#ffffff;
+    position: absolute;
+    margin-left:5px;
+    margin-top:60px;  
 }
-.block-first {
-    background-color: #666;
-    opacity: 0.6;
-    width:45%;
-    display:block;
+     /*END*/
+     
+/* END of Styles for tile boxes */
+
+/* BEGIN elements*/
+.personal-photo {
+    height:400px;
     float:left;
-    margin:30px;
-    padding:5px;
-}
-
-input {
-    width:500px;
-    padding:6px;
-    margin:10px;
-}
-textarea {
-    width:500px;
-    padding:6px;
-    margin:10px;
-}
-
-label {
-    margin-left:10px;
-    margin-bottom:15px;
-    color:#ffffff;
-}    
-
-.block-second{
-    background-color: #666;
-    opacity: 0.6;
-    width:45%;
-    display:block;
-    margin:30px;
-    float:right;
-}
-h3 {
-    color:#ffffff;
-    padding-left:10px;
-}
-.also-tile {
-     margin-right:30px;
-     height:50px;
-     width:45%;
-     display:block;
-     background-color: #666;
-     opacity: 0.6;
-     float:right;
-}
-
-footer {
-    width:100%;
-    height:50px;
-    background-color: #666;
-    display:inline-block;
-    padding:10px;
-    opacity: 0.6;
 }

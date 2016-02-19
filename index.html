@@ -74,21 +74,25 @@
         <div class="head-tile">
         <h2>My portfolio</h2>
         </div>
-           <a class="tile-box-big" href="#">
-               <span class="tile-label-big">Portal of Mostyska City</span>
-               <span class="tile-description">I did not create this site but it is still alive<br> thanks to me</span>
-               <img class="tile-icon-big" src="img/icons/sites/logomostportal.png" alt="Portal icon">
-           </a>
-           <a class="tile-box-big" href="#">
+        
+                   <a class="tile-box-big" href="#">
+                    <span class="tile-label-big">Portal of Mostyska City</span>
+                    <span class="tile-description">I did not create this site but it is still alive<br> thanks to me</span>
+                    <img class="tile-icon-big" src="img/icons/sites/logomostportal.png" alt="Portal icon">
+                   </a>
+                 </div>
+              <a class="tile-box-big" href="#">
                <span class="tile-label-big">One more project</span>
                <span class="tile-description">This is a description to this project</span>
                <img class="tile-icon-big" src="img/icons/works-icon.png" alt="Project icon">
-           </a>
-           <a class="tile-box-big" href="#">
+              </a>
+              <a class="tile-box-big" href="#">
                <span class="tile-label-big">And one more...</span>
                <span class="tile-description">This is a description to this project</span>
                <img class="tile-icon-big" src="img/icons/works-icon.png" alt="Project icon">
-           </a>
+              </a>
+           </div>
+         </div>
     </div>
     <div id="skills">
         <div class="head-tile">
@@ -136,57 +140,74 @@
         <div class="block-first">
             <h2>You can contact me using this form below:</h2>
             <div id ="contact-form" style="font-family: 'Arial Narrow','Nimbus Sans L',sans-serif;">
-                <form id="message", method="post" action="#">
+                <form id="message" method="post" action="#">
                     <fieldset class="global-form">
                        <label for="name">Name</label><br>
-                          <input type="text" name="name" placeholder="Panas Ivaniv" required/><br>
-                          <label for="email">E-mail</label><br>
-                          <input type="email"  name="email" placeholder="example@mail.com" required/><br>
-                          <label for="message">Message</label><br>
-                          <textarea  name="message" rows="10" placeholder="Drop me a line"></textarea><br>
+                          <input type="text" id="name" name="name" placeholder="Panas Ivaniv" required/><br>
+                        <label for="email">E-mail</label><br>
+                          <input type="email" id="email" name="email" placeholder="example@mail.com" required/><br>
+                       <label for="message">Message</label><br>
+                          <input type="text" id="message" name="message"  placeholder="Drop me a line"><br>
                           <input type="submit" value="Send">
                     </fieldset>
                 </form>
             </div>
         </div>
         <div class="block-second">
-            <h2>You can email and call me directly:</h2>
+            <div class="contacts">
+               <h2>You can email and call me directly:</h2>
                <h3>My email: yurazinko@ukr.net</h3>
                <h3>My phone number: +38 096 656 07 06</h3>
                <h3>My Skype-name: yzinko</h3>
-        </div> 
+            </div>
           <div class="also-tile">
             <h2>Also you can find me in these social networks:</h2> 
-          </div>  
-            <a class="tile-box-small" href="#">
-                <span class="tile-label-small">Facebook</span>
-                <img class="tile-icon-small" src="img/icons/sites/facebook-icon.png" alt="Facebook icon">
-             </a>    
-             <a class="tile-box-small" href="#">
-                <span class="tile-label-small">Twitter</span>
-                <img class="tile-icon-small" src="#" alt="Twitter icon">
-             </a>    
-             <a class="tile-box-small" href="#">
-                <span class="tile-label-small">LiveJournal</span>
-                <img class="tile-icon-small" src="#" alt="LiveJournal icon">
-             </a>    
-             <a class="tile-box-small" href="#">
-                 <span class="tile-label-small">Google+</span>
-                <img class="tile-icon-small" src="#" alt="Google+ icon">
-             </a>    
-             <a class="tile-box-small" href="#">
-                <span class="tile-label-small">LinkedIn</span>
-                <img class="tile-icon-small" src="img/icons/sites/linkedin-icon.png" alt="LinkedIn icon">
-             </a>    
-             <a class="tile-box-small" href="#">
-                  <span class="tile-label-small">GitHub</span>
-                <img class="tile-icon-small" src="img/icons/sites/github-icon.png" alt="GitHub icon">
-            </a>    
-        </div>
+          </div> 
+           <div class="social-tile">
+                <div class="container">
+                  <div class="row">
+                      <div class="col-1-4">
+                       <a class="tile-box-small" href="#">
+                          <span class="tile-label-small">Facebook</span>
+                          <img class="tile-icon-small" src="img/icons/sites/facebook-icon.png" alt="Facebook icon">
+                        </a>  
+                      </div>
+                        <a class="tile-box-small" href="#">
+                          <span class="tile-label-small">Twitter</span>
+                          <img class="tile-icon-small" src="#" alt="Twitter icon">
+                        </a>    
+                        <a class="tile-box-small" href="#">
+                          <span class="tile-label-small">LiveJournal</span>
+                          <img class="tile-icon-small" src="#" alt="LiveJournal icon">
+                        </a>    
+                        <a class="tile-box-small" href="#">
+                           <span class="tile-label-small">Google+</span>
+                          <img class="tile-icon-small" src="#" alt="Google+ icon">
+                        </a>    
+                        <a class="tile-box-small" href="#">
+                          <span class="tile-label-small">LinkedIn</span>
+                          <img class="tile-icon-small" src="img/icons/sites/linkedin-icon.png" alt="LinkedIn icon">
+                        </a>    
+                        <a class="tile-box-small" href="#">
+                            <span class="tile-label-small">GitHub</span>
+                          <img class="tile-icon-small" src="img/icons/sites/github-icon.png" alt="GitHub icon">
+                      </a>
+                    </div>
+               </div>
+         </div> 
+     </div>
   </article>
 <footer>
       Made by hands!
       yurazinko@ukr.net
 </footer>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </body>
 </html>
