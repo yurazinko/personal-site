@@ -3,6 +3,11 @@
     <head>
         <title>Yurii Zinko - the developer</title>
         <link href="style.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </head>
     <body>
   <header>
@@ -14,12 +19,13 @@
          <a href="#">Books</a>
          <a href="#">Contact</a>
       </nav>
-  </header>
+  
   <article>
       <div id ="long-tile">
           <span class="tile-label-long">Hi, my name is Yurii Zinko and I am</span>
           <h1 class="mywork">Front end developer and Web designer</h1>
       </div>
+  </header>
       <div id="tile-menu">
         <a class="tile-box-normal" href="#">
             <span class="tile-label">About</span>
@@ -45,11 +51,11 @@
     <div id="about">
         <img class="personal-photo" src="img/myphoto.jpg" alt="My photo">
         <div class="text-about-me">
-              <h2>Shortly about me</h2>
-              <p class="text-description-main">
+              <h2 class="shortly">Shortly about me</h2><br>
+              <div class="text-description-main">
               Hi there! My name is Yurii and I'm a little bit bored to be unemployed. 
               Thats why I have decided to start learning HTML, CSS and JavaScript in the Soft Serve Univercity. 
-              </p>
+              </div>
         </div>
         <div class="tiles-about">
             <a class="tile-box-normal" href="#">
@@ -74,13 +80,11 @@
         <div class="head-tile">
         <h2>My portfolio</h2>
         </div>
-        
-                   <a class="tile-box-big" href="#">
+             <a class="tile-box-big" href="#">
                     <span class="tile-label-big">Portal of Mostyska City</span>
                     <span class="tile-description">I did not create this site but it is still alive<br> thanks to me</span>
                     <img class="tile-icon-big" src="img/icons/sites/logomostportal.png" alt="Portal icon">
                    </a>
-                 </div>
               <a class="tile-box-big" href="#">
                <span class="tile-label-big">One more project</span>
                <span class="tile-description">This is a description to this project</span>
@@ -91,9 +95,7 @@
                <span class="tile-description">This is a description to this project</span>
                <img class="tile-icon-big" src="img/icons/works-icon.png" alt="Project icon">
               </a>
-           </div>
-         </div>
-    </div>
+        </div>
     <div id="skills">
         <div class="head-tile">
         <h2>My skills</h2>
@@ -147,7 +149,7 @@
                         <label for="email">E-mail</label><br>
                           <input type="email" id="email" name="email" placeholder="example@mail.com" required/><br>
                        <label for="message">Message</label><br>
-                          <input type="text" id="message" name="message"  placeholder="Drop me a line"><br>
+                          <textarea id="message" rows="10" name="message" placeholder="Drop me a line" required></textarea><br>
                           <input type="submit" value="Send">
                     </fieldset>
                 </form>
@@ -163,24 +165,21 @@
           <div class="also-tile">
             <h2>Also you can find me in these social networks:</h2> 
           </div> 
-           <div class="social-tile">
-                <div class="container">
+            <div class="container">
                   <div class="row">
-                      <div class="col-1-4">
-                       <a class="tile-box-small" href="#">
-                          <span class="tile-label-small">Facebook</span>
-                          <img class="tile-icon-small" src="img/icons/sites/facebook-icon.png" alt="Facebook icon">
+                        <a class="tile-box-small" href="#">
+                           <span class="tile-label-small">Facebook</span>
+                           <img class="tile-icon-small" src="img/icons/sites/facebook-icon.png" alt="Facebook icon">
                         </a>  
-                      </div>
                         <a class="tile-box-small" href="#">
                           <span class="tile-label-small">Twitter</span>
                           <img class="tile-icon-small" src="#" alt="Twitter icon">
-                        </a>    
+                        </a>
                         <a class="tile-box-small" href="#">
                           <span class="tile-label-small">LiveJournal</span>
                           <img class="tile-icon-small" src="#" alt="LiveJournal icon">
-                        </a>    
-                        <a class="tile-box-small" href="#">
+                        </a>
+                       <a class="tile-box-small" href="#">
                            <span class="tile-label-small">Google+</span>
                           <img class="tile-icon-small" src="#" alt="Google+ icon">
                         </a>    
@@ -192,22 +191,14 @@
                             <span class="tile-label-small">GitHub</span>
                           <img class="tile-icon-small" src="img/icons/sites/github-icon.png" alt="GitHub icon">
                       </a>
-                    </div>
+                  </div>
                </div>
-         </div> 
-     </div>
+         </div>
+    </div>     
   </article>
 <footer>
       Made by hands!
       yurazinko@ukr.net
 </footer>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </body>
 </html>

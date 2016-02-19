@@ -6,6 +6,14 @@ body {
     background-attachment: fixed;
     font-size:14px;
     padding:30px;
+    color:#ffffff;
+}
+@media screen and (width: 400px) {
+    body {
+       background-image: url(img/backdround2.jpg); 
+    }
+}
+       
 }
 
 div {
@@ -34,31 +42,64 @@ p {
     width:60%;
     height:100px;
     text-decoration: none;
+    box-shadow: 10px 10px 5px 5px #000;
+    padding:5px;
 }
 
 #tile-menu {
+    padding:60px;
     width:100%;
     display:inline-block;
+    border: 1px solid red;
 }
+
 #about {
+    padding:5px;
+    border: 1px solid red;
     display:inline-block;
     width:100%;
 }
 #works {
+    padding:5px;
+    border: 1px solid red;
     display:inline-block;
     width:100%;
 }
 #skills {
+    padding:5px;
+    border: 1px solid red;
     display:inline-block;
     width:100%;
 }
 #books {
+    padding:5px;
+    border: 1px solid red;
     display:inline-block;
     width:100%;
 }
 #contact {
-    display:inline-block;
+    padding:5px;
+    border: 1px solid red;
     width:100%;
+    display: inline-block;
+}
+footer {
+    padding:5px;
+    display:inline-block;
+    border: 1px solid red;
+    width:100%;
+}
+
+.block-first {
+    width:49%;
+    display:inline-block;
+    border: 1px solid green;
+}
+.block-second {
+    width:49%;
+    display:inline-block;
+    border: 1px solid green;
+    float:right;
 }
 /* END site blocks*/
 
@@ -76,10 +117,12 @@ p {
     opacity: 0.6;
     width:150px;
     height:150px;
-    margin:30px;
+    margin:20px;
     float:left;
     text-decoration: none;
+    box-shadow: 10px 10px 5px 5px #000;
 }
+ 
 .tile-box-normal :hover {
     opacity: 0.6;
 }
@@ -106,11 +149,12 @@ p {
     display:block;
     background-color: #666;
     opacity: 0.6;
-    width:300px;
+    width:340px;
     height:150px;
-    margin:30px;
+    margin:20px;
     float:left;
     text-decoration: none;
+    box-shadow: 10px 10px 5px 5px #000;
 }
 .tile-box-big :hover {
     opacity: 0.6;
@@ -147,7 +191,9 @@ p {
     width:75px;
     height:75px;
     margin:30px;
+    float:left;
     text-decoration: none;
+    box-shadow: 10px 10px 5px 5px #000;
 }
 
 .tile-icon-small {
@@ -170,6 +216,30 @@ p {
 
 /* BEGIN elements*/
 .personal-photo {
-    height:400px;
+    display:flex-box;
+    width:23%;
+    margin:5px;
     float:left;
+    z-index:0;
 }
+.text-about-me {
+    display:flex;
+    width:72%;
+    float:right;
+    background-color: #666;
+    opacity: 0.6;
+    margin:5px;
+    padding:5px;
+}
+
+form {
+    width:100%;
+}
+input {
+    width:100%;
+    margin:5px;
+}
+textarea {
+    width:100%;
+}
+
