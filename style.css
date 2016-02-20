@@ -15,16 +15,17 @@ body {
 }
        
 @media only screen and (max-width: 850px) {
-    #long-tile {
+    div#long-tile {
         display:block;
         width:100%;
         padding-bottom:20px;
     }
     .personal-photo {
+       width:0;
        display:none;
         }
-    .text-about-me {
-    width:100%;
+    div.text-about-me {
+    width:95%;
 }
 }
 
