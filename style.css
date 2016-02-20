@@ -8,7 +8,7 @@ body {
     padding:30px;
     color:#ffffff;
 }
-@media screen and (width: 400px) {
+@media only screen and (width: 480px) {
     body {
        background-image: url(img/backdround2.jpg); 
     }
