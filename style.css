@@ -273,3 +273,13 @@ textarea {
 
 /* END Elements */
 
+.navbar {
+display: none;
+position: fixed;
+opacity:0.7;
+bottom: 0;
+right: 20px;
+height:15px;
+width:100%;
+z-index: 300;
+}

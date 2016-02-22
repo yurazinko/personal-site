@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Yurii Zinko - the developer</title>
         <meta charset="utf-8">
-        <html lang="en">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> <!-- Bootstrap -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> <!-- Bootstrap -->
         <link href="style.css" rel="stylesheet">                                                            <!-- Local CSS -->
     </head>
     <body>
   <header>
-      <nav>
-          <div class="container"> 
-            <ul class="nav nav-pills">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <a class="navbar-brand" href="#">WebSiteName</a>
+              </div>
+            <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Works</a></li>
@@ -56,8 +58,8 @@
         <div class="text-about-me">
               <h2 class="mywork">Shortly about me</h2>
               <span class="text-description-main">
-              <p>Hi there! My name is Yurii and I'm a little bit bored to be unemployed. 
-              Thats why I have decided to start learning HTML, CSS and JavaScript in the Soft Serve Univercity.</p> 
+              <span>Hi there! My name is Yurii and I'm a little bit bored to be unemployed. 
+              Thats why I have decided to start learning HTML, CSS and JavaScript in the Soft Serve Univercity.</span> 
               </span>
         </div>
         <div class="tiles-about">
@@ -152,7 +154,7 @@
                         <label for="email">E-mail</label><br>
                           <input type="email" id="email" name="email" placeholder="example@mail.com" required/><br>
                        <label for="message">Message</label><br>
-                          <textarea id="message" rows="10" name="message" placeholder="Drop me a line" required></textarea><br>
+                          <textarea id="write" rows="10" name="message" placeholder="Drop me a line" required></textarea><br>
                           <input type="submit" value="Send">
                     </fieldset>
                 </form>
@@ -204,9 +206,9 @@
       yurazinko@ukr.net
 </footer>
 	<!-- BEGIN Scripts -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  <!-- jQuery -->
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> <!-- Bootstrap -->
-        <script type="text/javascript" src="main.js"></script>                                     <!-- Local JavaScript -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>   <!-- jQuery -->
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+        <script type="text/javascript" src="main.js"></script>                                <!-- Local JavaScript -->
    <!-- END Scripts --> 
     </body>
 </html>
