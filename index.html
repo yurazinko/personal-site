@@ -3,29 +3,32 @@
     <head>
         <title>Yurii Zinko - the developer</title>
         <meta charset="utf-8">
+        <html lang="en">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> <!-- Bootstrap -->
+        <link href="style.css" rel="stylesheet">                                                            <!-- Local CSS -->
     </head>
     <body>
   <header>
       <nav>
-         <a href="#">Home</a>
-         <a href="#">About</a>
-         <a href="#">Works</a>
-         <a href="#">Skills</a>
-         <a href="#">Books</a>
-         <a href="#">Contact</a>
+          <div class="container"> 
+            <ul class="nav nav-pills">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+         </div>
       </nav>
-  
+  </header>  
   <article>
       <div id ="long-tile">
           <span class="tile-label-long">Hi, my name is Yurii Zinko and I am</span>
           <h1 class="mywork">Front end developer and Web designer</h1>
       </div>
-  </header>
+  
       <div id="tile-menu">
         <a class="tile-box-normal" href="#">
             <span class="tile-label">About</span>
@@ -49,15 +52,13 @@
         </a>
     </div> 
     <div id="about">
-        <img class="personal-photo" src="img/myphoto.jpg" alt="My photo">
+        <img class="personal-photo" src="img/myphoto.png" alt="My photo">
         <div class="text-about-me">
-              <div class="shortly">
-              <h2>Shortly about me</h2><br>
-              </div>
-              <div class="text-description-main">
-              Hi there! My name is Yurii and I'm a little bit bored to be unemployed. 
-              Thats why I have decided to start learning HTML, CSS and JavaScript in the Soft Serve Univercity. 
-              </div>
+              <h2 class="mywork">Shortly about me</h2>
+              <span class="text-description-main">
+              <p>Hi there! My name is Yurii and I'm a little bit bored to be unemployed. 
+              Thats why I have decided to start learning HTML, CSS and JavaScript in the Soft Serve Univercity.</p> 
+              </span>
         </div>
         <div class="tiles-about">
             <a class="tile-box-normal" href="#">
@@ -202,5 +203,10 @@
       Made by hands!
       yurazinko@ukr.net
 </footer>
+	<!-- BEGIN Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  <!-- jQuery -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+        <script type="text/javascript" src="main.js"></script>                                     <!-- Local JavaScript -->
+   <!-- END Scripts --> 
     </body>
 </html>
