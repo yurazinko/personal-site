@@ -6,10 +6,10 @@ body {
     background-attachment: fixed;
     font-size:14px;
     color:#ffffff;
-    width:97%;
+    width:98%;
 }
 
-@media only screen and (min-width: 1370px) {   /* for ladge screens*/
+@media only screen and (min-width: 1400px) {   /* for ladge screens*/
     div#tile-menu {
      padding-left:10%;   
      padding-right:10%;
@@ -168,7 +168,7 @@ footer {
     display:block;
     background-color: #666;
     opacity: 0.6;
-    width:340px;
+    width:320px;
     height:150px;
     margin:10px;
     float:left;
