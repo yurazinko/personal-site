@@ -10,42 +10,48 @@ body {
     width: 98%;
 }
 
-@media only screen and (min-width: 1370px) { /* for ladge screens*/
-    
+@media only screen and (min-width: 1370px) {
+    /* for ladge screens*/
     div#tile-menu {
         padding-left: 10%;
         padding-right: 10%;
     }
 }
 
-@media only screen and (min-width:900px) { /* for regular screens*/
-   div#tile-menu {
-        padding-top: 230px;
-        padding-bottom: 170px;
-        padding-left:10%;
+@media only screen and (min-width:900px) {
+    /* for regular screens*/
+    div#tile-menu {
+        padding-top: 250px;
+        padding-bottom: 150px;
+        padding-left: 10%;
     }
-   
+    div.tiles-about {
+        width: 100%;
+        padding-left: 10%;
+    }
     a.abouts {
-         transform: translate(0px, -160px);
+        transform: translate(0px, -160px);
     }
-    
-    a.books {
+    a.works {
         transform: translate(0px, -80px);
     }
-
+    a.books {
+        transform: translate(0px, -160px);
+    }
     a.contacts {
-        transform: translate(0px, 80px);
+        transform: translate(0px, -80px);
     }
 }
 
-@media only screen and (max-width:1229px) { /* for old 1024x768 screens*/
+@media only screen and (max-width:1229px) {
+    /* for old 1024x768 screens*/
     div#long-tile {
-        height:160px;
+        height: 160px;
     }
 }
 
-@media only screen and (max-width: 799px) { /* for small screens (iPad, Nexus) */
-    
+@media only screen and (max-width: 799px) {
+    /* for small screens (iPad, Nexus) */
     div#long-tile {
         display: block;
         width: 100%;
@@ -63,10 +69,11 @@ body {
         padding-bottom: 20px;
     }
 }
+
 @media only screen and (max-width:767px) {
     div.navbar-fixed-top {
         visibility: none;
-        height:0%;
+        height: 0%;
     }
 }
 
@@ -113,20 +120,24 @@ p {
 }
 
 #about {
+    padding-top: 50px;
     border: 1px solid red;
     display: inline-block;
     width: 100%;
 }
 
 #works {
-    padding: 3px;
+    margin-top: 50px;
+    padding-top: 50px;
     border: 1px solid red;
     display: inline-block;
     width: 100%;
 }
 
 #skills {
-    padding: 3px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom:150px;
     border: 1px solid red;
     display: inline-block;
     width: 100%;
@@ -195,7 +206,7 @@ footer {
 }
 
 .button:hover {
-   opacity: 0.8;
+    opacity: 0.8;
 }
 
 .tile-icon {
@@ -231,7 +242,6 @@ footer {
     text-decoration: none;
     box-shadow: 10px 10px 5px 5px #000;
 }
-
 
 .tile-icon-big {
     width: 50px;
@@ -319,8 +329,26 @@ footer {
 
 .tiles-about {
     display: inline-block;
-    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 45px;
     border: 1px solid green;
+}
+
+.tiles-portfolio {
+    border: 1px solid green;
+    display: inline-block;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-bottom: 300px;
+}
+
+.head-tile {
+    background-color: #666;
+    opacity: 0.6;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 10px 10px 5px 5px #000;
 }
 
 form {
@@ -348,4 +376,35 @@ textarea {
     height: 15px;
     width: 100%;
     z-index: 300;
+}
+
+.charts {
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-bottom: 350px;
+}
+
+
+.chart-block {
+    background-color:#666;
+    opacity:0.7;
+    padding-left:35px;
+    padding-right:15px;
+    padding-top:25px;
+    margin:10px;
+    display:block;
+    width:320px;
+    height:320px;
+    float:left;
+    box-shadow: 10px 10px 5px 5px #000;
+}
+
+.chart-block:hover {
+    opacity:0.9;
+}
+
+.chart-caption {
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom:5px;
 }

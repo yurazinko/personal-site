@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Yurii Zinko - the developer</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="css-percentage-circle-master/css/circle.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-inverse navbar-fixed-top hidden-xs">
@@ -58,23 +61,29 @@
                 <h2 class="mywork">Shortly about me</h2>
                 <span class="text-description-main">
               <span>Hi there! My name is Yurii and I'm a little bit bored to be unemployed. 
-              Thats why I have decided to start learning HTML, CSS and JavaScript in the Soft Serve Univercity.</span>
+              Thats why I have decided to start learning HTML, CSS and JavaScript in the Soft Serve Univercity.<br><br>
+              I studied ecology and environment protection at the university for five years. But  web development has always been my truly passion. So I can tell you for sure that my websites are fast-loading and nature-loving
+              </span>
                 </span>
             </div>
             <div class="tiles-about">
-                <a class="tile-box-normal button" href="#">
-                    <span class="tile-label">GitHub</span>
-                    <img class="tile-icon" src="img/icons/sites/github-icon.png" alt="GitHub icon">
-                </a>
-                <a class="tile-box-normal button" href="#">
+                <a class="tile-box-normal button linkedin" href="#">
                     <span class="tile-label">LinkedIn</span>
                     <img class="tile-icon" src="img/icons/sites/linkedin-icon.png" alt="LinkedIn icon">
                 </a>
-                <a class="tile-box-normal button" href="#">
+                <a class="tile-box-normal button twitter" href="#">
+                    <span class="tile-label">Twitter</span>
+                    <img class="tile-icon" src="img/icons/sites/twitter-icon.png" alt="Twitter icon">
+                </a>
+                <a class="tile-box-normal button facebook" href="#">
                     <span class="tile-label">Facebook</span>
                     <img class="tile-icon" src="img/icons/sites/facebook-icon.png" alt="Facebook icon">
                 </a>
-                <a class="tile-box-normal button" href="#">
+                <a class="tile-box-big button github" href="#">
+                    <span class="tile-label">GitHub</span>
+                    <img class="tile-icon-big" src="img/icons/sites/github-icon.png" alt="GitHub icon">
+                </a>
+                <a class="tile-box-normal button location" href="#">
                     <span class="tile-label">Location</span>
                     <img class="tile-icon" src="img/icons/sites/location-icon.png" alt="Location icon">
                 </a>
@@ -84,47 +93,69 @@
             <div class="head-tile">
                 <h2>My portfolio</h2>
             </div>
-            <a class="tile-box-big button" href="#">
-                <span class="tile-label-big">Portal of Mostyska City</span>
-                <span class="tile-description">I did not create this site but it is still alive<br> thanks to me</span>
-                <img class="tile-icon-big" src="img/icons/sites/logomostportal.png" alt="Portal icon">
-            </a>
-            <a class="tile-box-big button" href="#">
-                <span class="tile-label-big">One more project</span>
-                <span class="tile-description">This is a description to this project</span>
-                <img class="tile-icon-big" src="img/icons/works-icon.png" alt="Project icon">
-            </a>
-            <a class="tile-box-big button" href="#">
-                <span class="tile-label-big">And one more...</span>
-                <span class="tile-description">This is a description to this project</span>
-                <img class="tile-icon-big" src="img/icons/works-icon.png" alt="Project icon">
-            </a>
+            <div class="tiles-portfolio">
+                <a class="tile-box-big button" href="#">
+                    <span class="tile-label-big">Portal of Mostyska City</span>
+                    <span class="tile-description">I did not create this site but it is still alive<br> thanks to me</span>
+                    <img class="tile-icon-big" src="img/icons/sites/logomostportal.png" alt="Portal icon">
+                </a>
+                <a class="tile-box-big button" href="#">
+                    <span class="tile-label-big">One more project</span>
+                    <span class="tile-description">This is a description to this project</span>
+                    <img class="tile-icon-big" src="img/icons/works-icon.png" alt="Project icon">
+                </a>
+                <a class="tile-box-big button" href="#">
+                    <span class="tile-label-big">And one more...</span>
+                    <span class="tile-description">This is a description to this project</span>
+                    <img class="tile-icon-big" src="img/icons/works-icon.png" alt="Project icon">
+                </a>
+            </div>
         </div>
         <div id="skills">
             <div class="head-tile">
                 <h2>My skills</h2>
             </div>
             <div class="charts">
-                <figure>
-                    <progress value="90" max="100"></progress>
-                    <img src="#" alt="HTML Chart">
-                    <figcaption>90%</figcaption>
-                </figure>
-                <figure>
-                    <progress value="60" max="100"></progress>
-                    <img src="#" alt="CSS Chart">
-                    <figcaption>60%</figcaption>
-                </figure>
-                <figure>
-                    <progress value="30" max="100"></progress>
-                    <img src="#" alt="JavaScript Chart">
-                    <figcaption>30%</figcaption>
-                </figure>
+                <div class="chart-block">
+                   
+                <div class="c100 p90 big dark">
+                    <span>90%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                 <span class=chart-caption>HTML</span>
+               </div>
+               
+               <div class="chart-block">
+                    
+                <div class="c100 p90 big dark">
+                    <span>90%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <span class=chart-caption>HTML</span>
+               </div>
+                
+                <div class="chart-block">
+                    
+                <div class="c100 p90 big dark">
+                    <span>90%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <span class=chart-caption>HTML</span>
+               </div>
             </div>
         </div>
         <div id="books">
             <div class="head-tile">
-                <h2>Books which i would recommend</h2>
+                <h2>Books which I would recommend</h2>
             </div>
             <a class="tile-box-big button" href="#">
                 <span class="tile-description">Alan Cooper</span>
