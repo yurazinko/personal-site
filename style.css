@@ -13,32 +13,134 @@ body {
 @media only screen and (min-width: 1370px) {
     /* for ladge screens*/
     div#tile-menu {
-        margin-top:100px;
-        padding-left: 30%;
+        margin-top:150px;
         height:800px;
+    }
+    
+    .tiles-main {
+        position:absolute;
+        border:1px solid green;
+        transform: translate(120px, 0px);
     }
     
     div.tiles-about {
        padding-top:150px;
-       padding-left:30%;
        height:500px;
+    }
+    .tiles-about-big {
+       position:absolute;
+       transform: translate(120px, 0px);
+    }
+    
+    .tiles-portfolio {
+        margin-top:50px;
+        height:820px;
+    }
+    
+    .tiles-portfolio-big {
+        position:absolute;
+        transform: translate(80px, 0px);
+    }
+    
+    .tiles-books-big {
+        position:absolute;
+        transform: translate(80px, 0px);
     }
     
     .chart-block {
         margin :45px;
     }
+    
+    
+    a.linkedin {
+        transform: translate(0px, -80px);
+    }
+    
+    a.facebook {
+        transform: translate(0px, 80px);
+    }
+    a.github {
+        transform: translate(0px, -80px);
+    }
+    
+    #skills {
+        height:1100px;
+    }
+    
+    .charts-big {
+        position:absolute;
+        transform: translate(30px, 0px);
+    }
+    
+    .charts {
+        margin-top:50px;
+    }
+    
+    .map-block {
+        margin-top:200px;
+        height:800px;
+    }
 }
+
+@media only screen and (min-height:780px) {
+    
+    .tiles-about-big {
+       position:absolute;
+       transform: translate(0px, 140px);
+    }
+    
+   a.linkedin {
+        transform: translate(0px, -80px);
+    }
+    
+    a.facebook {
+        transform: translate(0px, 80px);
+    }
+    a.github {
+        transform: translate(0px, -80px);
+    }
+    
+    .tiles-portfolio {
+        height:950px;
+    }
+    
+    .map-block {
+         margin-top:100px;
+         height:950px;
+    }
+    
+    #skills {
+        height:950px;
+    }
+    
+    #books {
+        height:950px;
+    }
+    
+    #contact {
+        height:1015px;
+    }
+    
+    .contacts-big {
+        width:98%;
+        position:absolute;
+        transform: translate(0px, 120px);
+    }
+}
+
 
 @media only screen and (min-width:900px) {
     /* for regular screens*/
     div#tile-menu {
-        padding-top: 250px;
+        padding-top: 300px;
         padding-bottom: 150px;
         padding-left: 10%;
+        height:950px;
     }
     div.tiles-about {
         width: 100%;
-        padding-left: 10%;
+        padding-left: 12%;
+        height:800px;
     }
     a.abouts {
         transform: translate(0px, -160px);
@@ -53,7 +155,14 @@ body {
         transform: translate(0px, -80px);
     }
     
+    .block-first {
+        width:49%;
+    }
     
+    .block-second {
+        width: 49%;
+        float: right;
+    }
 }
 
 @media only screen and (max-width:1229px) {
@@ -165,14 +274,16 @@ p {
 }
 
 #books {
-    padding: 3px;
+    margin-top: 50px;
+    padding-top: 50px;
     border: 1px solid red;
     display: inline-block;
     width: 100%;
 }
 
 #contact {
-    padding: 3px;
+    margin-top: 50px;
+    padding-top: 50px;
     border: 1px solid red;
     width: 100%;
     display: inline-block;
@@ -186,16 +297,15 @@ footer {
 }
 
 .block-first {
-    width: 49%;
     display: inline-block;
     border: 1px solid green;
 }
 
 .block-second {
-    width: 49%;
+    
     display: inline-block;
     border: 1px solid green;
-    float: right;
+    
 }
 
 
@@ -300,7 +410,7 @@ footer {
     opacity: 0.6;
     width: 75px;
     height: 75px;
-    margin: 30px;
+    margin: 15px;
     float: left;
     text-decoration: none;
     box-shadow: 10px 10px 5px 5px #000;
@@ -365,6 +475,15 @@ footer {
     padding-bottom: 300px;
 }
 
+.tiles-books {
+    border: 1px solid green;
+    display: inline-block;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-bottom: 300px;
+}
+
 .head-tile {
     background-color: #666;
     opacity: 0.6;
@@ -402,7 +521,7 @@ textarea {
 
 .charts {
     padding-top: 90px;
-    padding-left: 10%;
+    padding-left: 9%;
     padding-bottom: 350px;
 }
 
@@ -413,7 +532,8 @@ textarea {
     padding-left:35px;
     padding-right:15px;
     padding-top:25px;
-    margin-left:30px;
+    margin-top:35px;
+    margin-left:35px;
     display:block;
     width:320px;
     height:320px;
@@ -458,4 +578,38 @@ textarea {
     margin-left:29%;
     opacity:0.7;
     z-index:10;
+}
+
+.block-first {
+    padding:10px;
+    margin-top:10px;
+    margin-left:5px;
+    background-color:#666;
+    opacity:0.6;
+    box-shadow: 10px 10px 5px 5px #000;
+}
+
+.block-second {
+    margin-top:5px;
+}
+
+.global-form {
+    padding:10px;
+}
+
+.send-button {
+    width:100px;
+    color:black;
+    font-weight:bold;
+}
+
+.contact-tile {
+    padding:5px;
+    margin-top:15px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:10px;
+    background-color:#666;
+    opacity:0.6;
+    box-shadow: 10px 10px 5px 5px #000;
 }
