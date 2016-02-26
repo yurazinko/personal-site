@@ -28,21 +28,40 @@ $('.toggle').click(function (event) {
 
 
 // Scrolling previous-next
-var section = 1;
 
-$("#next").click(function(e){
-  e.preventDefault();
-  if(section < 6){
-    section++;
-  }
-  TweenMax.to(window, 0.5, {scrollTo:{y:$("#div" + section).offset().top}});
-});
+function scrollToPosition(element) {
+    if (element !== undefined) {
+        $(".wrap").scrollTo(element, 800, {
+            margin: true
+        });
+    }
+}
 
-$("#prev").click(function(e){
-  e.preventDefault();
-  if(section > 1){
-    section--;
-    TweenMax.to(window, 0.5, {scrollTo:{y:$("#div" + section).offset().top}});
-  }
-  
+$(function() {
+
+    //Create an Array of sections
+    var posts = $('.section');
+    var position = 0; //Start Position
+    var next = $('#next');
+    var prev = $('#prev').hide();
+
+    //Better performance to use Id selectors than class selectors
+    next.click(function(evt) {
+        //Scroll to next position
+        prev.show();
+        scrollToPosition(posts[position += 1]);
+        if (position === posts.length - 1) {
+            next.hide();
+        }
+    });
+
+    prev.click(function(evt) {
+        //Scroll to prev position    
+        next.show();
+        scrollToPosition(posts[position -= 1]);
+        if (position === 0) {
+            prev.hide();
+        }
+    });
+
 });
