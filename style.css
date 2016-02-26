@@ -589,6 +589,8 @@ textarea {
     box-shadow: 10px 10px 5px 5px #000;
 }
 
+
+
 .block-second {
     margin-top:5px;
 }
@@ -613,3 +615,21 @@ textarea {
     opacity:0.6;
     box-shadow: 10px 10px 5px 5px #000;
 }
+
+.arrow-up {
+    width:35px;
+    position:fixed;
+    top:88%;
+    right:3%;
+   
+}
+
+.arrow-down {
+    width:35px;
+    position:fixed;
+    top:94%;
+    right:3%;
+}
+
+
+

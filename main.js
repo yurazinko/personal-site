@@ -1,4 +1,4 @@
-// Navigation menu on top
+// hide navigation menu on top
 $(function(f) {
     var element = f('.navbar');
     f(window).scroll(function() {
@@ -19,9 +19,30 @@ $(document).ready(function() {
     });
 });
 
-
+// show-hide map
 $('.toggle').click(function (event) {
 	event.preventDefault();
 	var target = $(this).attr('href');
 	$(target).toggleClass('hidden show');
+});
+
+
+// Scrolling previous-next
+var section = 1;
+
+$("#next").click(function(e){
+  e.preventDefault();
+  if(section < 6){
+    section++;
+  }
+  TweenMax.to(window, 0.5, {scrollTo:{y:$("#div" + section).offset().top}});
+});
+
+$("#prev").click(function(e){
+  e.preventDefault();
+  if(section > 1){
+    section--;
+    TweenMax.to(window, 0.5, {scrollTo:{y:$("#div" + section).offset().top}});
+  }
+  
 });
