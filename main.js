@@ -31,11 +31,12 @@ $('.toggle').click(function (event) {
 // Scrolling previous-next
 
 function scrollToPosition(element) {
-    if (element !== undefined) {
-        $(".wrap").scrollTo(element, 800, {
-            margin: true
-        });
-    }
+    $.scrollTo(element, 800);
+    // if (element !== undefined) {
+    //     $(".wrap").scrollTo(element, 800, {
+    //         margin: true
+    //     });
+    // }
 }
 
 $(function() {
