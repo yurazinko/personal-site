@@ -19,7 +19,6 @@ body {
     
     .tiles-main {
         position:absolute;
-        border:1px solid green;
         transform: translate(120px, 0px);
     }
     
@@ -86,7 +85,7 @@ body {
     
     .tiles-about-big {
        position:absolute;
-       transform: translate(0px, 140px);
+       transform: translate(140px, 30px);
     }
     
    a.linkedin {
@@ -226,7 +225,7 @@ p {
 #long-tile {
     display: block;
     background-color: #666;
-    opacity: 0.6;
+    opacity: 0.7;
     width: 60%;
     height: 100px;
     text-decoration: none;
@@ -317,7 +316,7 @@ footer {
 .tile-box-normal {
     display: block;
     background-color: #666;
-    opacity: 0.6;
+    opacity: 0.7;
     width: 150px;
     height: 150px;
     margin: 10px;
@@ -355,7 +354,7 @@ footer {
 .tile-box-big {
     display: block;
     background-color: #666;
-    opacity: 0.6;
+    opacity: 0.7;
     width: 320px;
     height: 150px;
     margin: 10px;
@@ -397,7 +396,7 @@ footer {
 .tile-box-small {
     display: block;
     background-color: #666;
-    opacity: 0.6;
+    opacity: 0.7;
     width: 75px;
     height: 75px;
     margin: 15px;
@@ -442,7 +441,7 @@ footer {
     width: 72%;
     float: right;
     background-color: #666;
-    opacity: 0.6;
+    opacity: 0.7;
     margin: 5px;
     padding: 5px;
     box-shadow: 10px 10px 5px 5px #000;
@@ -473,7 +472,7 @@ footer {
 
 .head-tile {
     background-color: #666;
-    opacity: 0.6;
+    opacity: 0.7;
     margin: 5px;
     padding: 5px;
     box-shadow: 10px 10px 5px 5px #000;
@@ -545,14 +544,14 @@ textarea {
 .ukraine {
     margin-left:20%;
     width:55%;
-    opacity:0.7;
+    opacity:0.8;
 }
 
 .blinker {
     position:absolute;
     margin-top:9.2%;
     margin-left:24%;
-    opacity:0.7;
+    opacity:0.8;
     z-index:10;
     
 }
@@ -562,7 +561,7 @@ textarea {
     position:absolute;
     margin-top:10.5%;
     margin-left:29%;
-    opacity:0.7;
+    opacity:0.8;
     z-index:10;
 }
 
@@ -571,7 +570,7 @@ textarea {
     margin-top:10px;
     margin-left:5px;
     background-color:#666;
-    opacity:0.6;
+    opacity:0.7;
     box-shadow: 10px 10px 5px 5px #000;
 }
 
@@ -598,12 +597,12 @@ textarea {
     margin-right:5px;
     margin-bottom:10px;
     background-color:#666;
-    opacity:0.6;
+    opacity:0.7;
     box-shadow: 10px 10px 5px 5px #000;
 }
 
 .arrow-up {
-    opacity:0.6;
+    opacity:0.7;
     width:35px;
     position:fixed;
     top:87%;
@@ -616,7 +615,7 @@ textarea {
 }
 
 .arrow-down {
-    opacity:0.6;
+    opacity:0.7;
     width:35px;
     position:fixed;
     top:93%;

@@ -1,4 +1,5 @@
 // hide navigation menu on top
+// hide navigation menu on top
 $(function(f) {
     var element = f('.navbar');
     f(window).scroll(function() {
@@ -45,7 +46,7 @@ $(function() {
     var next = $('#next');
     var prev = $('#prev').hide();
 
-    //Better performance to use Id selectors than class selectors
+    
     next.click(function(evt) {
         //Scroll to next position
         prev.show();
