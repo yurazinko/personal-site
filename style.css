@@ -86,7 +86,7 @@ body {
     
     .tiles-about-big {
        position:absolute;
-       transform: translate(160px, 0px);
+       transform: translate(80px, 70px);
     }
     
    a.linkedin {
@@ -177,7 +177,7 @@ body {
     div#long-tile {
         display: block;
         width: 100%;
-        height: 120px;
+        height: 180px;
         padding-bottom: 20px;
     }
     .personal-photo {
@@ -187,8 +187,12 @@ body {
     div.text-about-me {
         display: block;
         width: 100%;
-        height: 110px;
+        height: 320px;
         padding-bottom: 20px;
+    }
+    
+    #works {
+        margin-top: 320px;
     }
 }
 
@@ -197,6 +201,70 @@ body {
         visibility: none;
         height: 0%;
     }
+}
+
+@media only screen and (max-width:767px) {
+    
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  a.linkedin {
+    transform: translate(0px, 0px);
+}
+
+ a.facebook {
+    transform: translate(0px, 0px);
+}
+a.github {
+    transform: translate(0px, 0px);
+}
+#books {
+   transform: translate(0px, 320px);
+  position:inherit;
+}
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  .tiles-about-big {
+    position: absolute;
+    transform: translate(0px, 200px);
+}
+#works {
+    position:absolute;
+    margin-top: 140px;
+    padding-top: 200px;
+    display: inline-block;
+    width: 100%;
+}
+
+#skills {
+    position:absolute;
+    margin-top: 900px;
+    padding-top: 200px;
+    display: inline-block;
+    width: 100%;
+}
+
+#books {
+    position:absolute;
+    margin-top: 1600px;
+    padding-top: 200px;
+    display: inline-block;
+    width: 100%;
+}
+
+#contact {
+    position:absolute;
+    margin-top: 2600px;
+    padding-top: 200px;
+    display: inline-block;
+    width: 100%;
+}
+
+footer {
+    position:absolute;
+    margin-top: 4000px;
+}
 }
 
 div {}
@@ -284,8 +352,8 @@ p {
 
 footer {
     position:absolute;
-    padding-left:40%;
-    padding-right:40%;
+    padding-left:30%;
+    padding-right:30%;
     padding-bottom: 5px;
     display: inline-block;
     width: 100%;
