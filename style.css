@@ -235,6 +235,10 @@ a.github {
 a.github {
     transform: translate(0px, 0px);
 }
+#books {
+   transform: translate(0px, 320px);
+  position:inherit;
+}
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px){
