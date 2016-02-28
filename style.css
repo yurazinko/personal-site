@@ -224,6 +224,19 @@ a.github {
 }
 }
 
+@media screen and (min-device-width: 600px) and (max-device-width: 960px){
+  a.linkedin {
+    transform: translate(0px, 0px);
+}
+
+ a.facebook {
+    transform: translate(0px, 0px);
+}
+a.github {
+    transform: translate(0px, 0px);
+}
+}
+
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px){
   .tiles-about-big {
     position: absolute;
