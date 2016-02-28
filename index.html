@@ -7,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link href="css-percentage-circle-master/css/circle.css" rel="stylesheet">
+    <link rel="stylesheet" href="css3-animate-it-master/css/animations.css" type="text/css" />
+    <link rel="stylesheet" href="fullPage-master/jquery.fullPage.css" type="text/css" />
     <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
+    
     <header>
         <nav class="navbar navbar-inverse navbar-fixed-top hidden-xs">
             <div class="container-fluid">
@@ -29,12 +32,12 @@
         </nav>
     </header>
     <article>
-        <div class="wrap">
-            <div id="long-tile" class="section">
+        <div id="fullpage" class="main">
+            <div id="long-tile" class="section active">
                 <span class="tile-label-long">Hi, my name is Yurii Zinko and I am</span>
                 <h1 class="mywork">Front end developer and Web designer</h1>
             </div>
-            <div id="tile-menu">
+            <div id="tile-menu" class="pullDown">
                 <div class="tiles-main">
                     <a class="tile-box-normal button abouts" href="#about">
                         <span class="tile-label">About</span>
@@ -44,7 +47,7 @@
                         <span class="tile-label-big">Works</span>
                         <img class="tile-icon-big" src="img/icons/works-icon.png" alt="Works icon">
                     </a>
-                    <a class="tile-box-normal button" href="#skills">
+                    <a class="tile-box-normal button skills" href="#skills">
                         <span class="tile-label">Skills</span>
                         <img class="tile-icon" src="img/icons/skills-icon.png" alt="Skills icon">
                     </a>
@@ -58,9 +61,9 @@
                     </a>
                 </div>
             </div>
-            <div id="about" class="section">
+            <div id="about" class="section pullDown">
                 <img class="personal-photo" src="img/myphoto.png" alt="My photo">
-                <div class="text-about-me">
+                <div class="text-about-me ">
                     <h2 class="mywork">Shortly about me</h2>
                     <span class="text-description-main">
               <span>Hi there! My name is Yurii and I'm a little bit bored to be unemployed. 
@@ -263,7 +266,6 @@
             </div>
         </div>
     </article>
-    <p id="scrollTest"></p>
     <footer>
 
 
@@ -272,13 +274,15 @@
         <a href="#" id="next"><img class="arrow-down" src="img/icons/arrow-down.png" alt="Scroll Next" /></a>
 
 
-        Made by hands! yurazinko@ukr.net
     </footer>
+    
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
     <script type="text/javascript" src="jquery-scroll-to/jquery.scrollTo.js"></script>
     <script type="text/javascript" src="jquery-scroll-to/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="css3-animate-it-master/js/css3-animate-it.js"></script>
+    <script type="text/javascript" src="fullPage-master/onepage-scroll.js"></script>
     <script type="text/javascript" src="main.js"></script>
 </body>
 

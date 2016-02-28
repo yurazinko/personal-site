@@ -5,6 +5,7 @@ body {
     background-color: #00FF99;
     background-image: url(img/lovely-nature.jpg);
     background-attachment: fixed; 
+    background-repeat: no-repeat;
     font-size: 14px;
     color: #ffffff;
     width: 98%;
@@ -85,7 +86,7 @@ body {
     
     .tiles-about-big {
        position:absolute;
-       transform: translate(140px, 30px);
+       transform: translate(160px, 0px);
     }
     
    a.linkedin {
@@ -131,7 +132,7 @@ body {
 @media only screen and (min-width:900px) {
     /* for regular screens*/
     div#tile-menu {
-        padding-top: 300px;
+        padding-top: 400px;
         padding-bottom: 150px;
         padding-left: 10%;
         height:950px;
@@ -246,21 +247,21 @@ p {
 }
 
 #map {
-    margin-top: 50px;
+  /*  margin-top: 50px; */
     padding-top: 50px;
     display:block hidden;
     width:100%;
 }
 
 #works {
-    margin-top: 50px;
+  /*  margin-top: 50px; */
     padding-top: 50px;
     display: inline-block;
     width: 100%;
 }
 
 #skills {
-    margin-top: 50px;
+  /*  margin-top: 50px; */
     padding-top: 50px;
     padding-bottom:150px;
     display: inline-block;
@@ -268,15 +269,15 @@ p {
 }
 
 #books {
-    margin-top: 50px;
+ /*   margin-top: 50px; */
     padding-top: 50px;
     display: inline-block;
     width: 100%;
 }
 
 #contact {
-    margin-top: 50px;
-    padding-top: 50px;
+    margin-top: 50px; 
+    padding-bottom: 40px;
     width: 100%;
     display: inline-block;
 }
@@ -506,7 +507,7 @@ textarea {
 }
 
 .charts {
-    padding-top: 90px;
+    padding-top: 70px;
     padding-left: 9%;
     padding-bottom: 350px;
 }
