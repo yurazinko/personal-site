@@ -70,15 +70,3 @@ $(function() {
 
 //Animation effects
 
-	$(window).scroll(function() {
-		$('.section').each(function(){
-		var imagePos = $(this).offset().top;
-
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+400) {
-				$(this).addClass("pullDown");
-			}
-		});
-	});
-
-// Scroll with mouse wheel
