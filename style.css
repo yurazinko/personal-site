@@ -709,3 +709,8 @@ textarea {
 .social-networks{
 	display:inline-block;
 }
+
+textarea {
+    position:relative;
+    left:5px;
+}
