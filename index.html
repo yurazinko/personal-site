@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="animate.css" type="text/css" />
     <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-inverse navbar-fixed-top hidden-xs">
@@ -35,26 +36,26 @@
         </div>
         <div id="tile-menu" class="wow fadeInUp">
             <div class="tiles-main">
-                
+
                 <!-- Experiment -->
                 <div>
-                <a class="tile-box-small button linkedin-home" href="#">
+                    <a class="tile-box-small button linkedin-home" href="#">
                         <span class="tile-label-small">LinkedIn</span>
                         <img class="tile-icon-small" src="img/icons/sites/linkedin-icon.png" alt="LinkedIn icon">
                     </a>
-                    
-                     <a class="tile-box-small button facebook-home" href="#">
+
+                    <a class="tile-box-small button facebook-home" href="#">
                         <span class="tile-label-small">Facebook</span>
                         <img class="tile-icon-small" src="img/icons/sites/facebook-icon.png" alt="Facebook icon">
                     </a>
-                    
+
                     <a class="tile-box-small button github-home" href="#">
                         <span class="tile-label-small">GitHub</span>
                         <img class="tile-icon-small" src="img/icons/sites/github-icon.png" alt="GitHub icon">
                     </a>
-                    </div>
-            <!-- Experiment -->
-                
+                </div>
+                <!-- Experiment -->
+
                 <a class="tile-box-normal button abouts" href="#about">
                     <span class="tile-label">About</span>
                     <img class="tile-icon" src="img/icons/about-icon.png" alt="About icon">
@@ -129,17 +130,17 @@
             </div>
             <div class="tiles-portfolio">
                 <div class="tiles-portfolio-big">
-                    <a class="tile-box-big button" href="#">
+                    <a class="tile-box-big button wow zoomInLeft" href="#">
                         <span class="tile-label-big">Portal of Mostyska City</span>
                         <span class="tile-description">I did not create this site but it is still alive<br> thanks to me</span>
                         <img class="tile-icon-big" src="img/icons/sites/logomostportal.png" alt="Portal icon">
                     </a>
-                    <a class="tile-box-big button" href="#">
+                    <a class="tile-box-big button wow zoomInDown" href="#">
                         <span class="tile-label-big">One more project</span>
                         <span class="tile-description">This is a description to this project</span>
                         <img class="tile-icon-big" src="img/icons/works-icon.png" alt="Project icon">
                     </a>
-                    <a class="tile-box-big button" href="#">
+                    <a class="tile-box-big button wow zoomInRight" href="#">
                         <span class="tile-label-big">And one more...</span>
                         <span class="tile-description">This is a description to this project</span>
                         <img class="tile-icon-big" src="img/icons/works-icon.png" alt="Project icon">
@@ -151,9 +152,9 @@
             <div class="head-tile wow slideInRight">
                 <h2>My skills</h2>
             </div>
-            <div class="charts wow zoomInUp">
+            <div class="charts ">
                 <div class="charts-big">
-                    <div class="chart-block">
+                    <div class="chart-block wow zoomInUp" data-wow-delay="0.3s">
 
                         <div class="c100 p90 big dark">
                             <span>90%</span>
@@ -165,7 +166,7 @@
                         <span class=chart-caption>HTML</span>
                     </div>
 
-                    <div class="chart-block">
+                    <div class="chart-block wow zoomInUp" data-wow-delay="0.5s">
 
                         <div class="c100 p70 big dark">
                             <span>70%</span>
@@ -177,7 +178,7 @@
                         <span class=chart-caption>CSS</span>
                     </div>
 
-                    <div class="chart-block">
+                    <div class="chart-block wow zoomInUp" data-wow-delay="0.7s">
 
                         <div class="c100 p40 big dark">
                             <span>40%</span>
@@ -197,20 +198,20 @@
             </div>
             <div class="tiles-books">
                 <div class="tiles-books-big">
-                    <a class="tile-box-big button" href="#">
+                    <a class="tile-box-big button wow zoomInLeft" href="#">
                         <span class="tile-description">Alan Cooper</span>
                         <span class="tile-label-big">About the face</span>
                         <img class="tile-icon-big" src="img/icons/books-icon.png" alt="Book icon">
                     </a>
 
-                    <a class="tile-box-big button" href="#">
+                    <a class="tile-box-big button wow zoomInUp" href="#">
                         <span class="tile-description">Donald A. Norman</span>
                         <span class="tile-label-big">The Design of Everyday Things</span>
                         <img class="tile-icon-big" src="img/icons/books-icon.png" alt="Book icon">
                     </a>
 
 
-                    <a class="tile-box-big button" href="#">
+                    <a class="tile-box-big button wow zoomInRight" href="#">
                         <span class="tile-description">Robert Cialdini</span>
                         <span class="tile-label-big">Influence: The Psychology of Persuasion</span>
                         <img class="tile-icon-big" src="img/icons/books-icon.png" alt="Book icon">
@@ -225,59 +226,74 @@
             <div class="contacts-big">
                 <div class="block-first wow tada">
                     <h2>You can contact me using this form below:</h2>
-                    <form role="form">
+                    <form class="form-horizontal" role="form" method="post" action="//formspree.io/yurazinko@ukr.net">
                         <div class="form-group">
-                            <label for="usr">Name:</label>
-                            <input type="text" class="form-control" id="usr">
+                            <label for="name" class="col-sm-2 control-label">Name</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+                            </div>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" class="form-control" id="email">
+                            <label for="email" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+                            </div>
                         </div>
                         <div class="form-group">
-                            <label for="comment">Comment:</label>
-                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                            <label for="message" class="col-sm-2 control-label">Message</label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" rows="4" name="message"></textarea>
+                            </div>
                         </div>
-                        <button type="submit" class="btn btn-default">Send</button>
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <! Will be used to display an alert to the user>
+                            </div>
+                        </div>
                     </form>
                 </div>
                 <div class="block-second">
-                    <div class="head-tile wow bounceInRight">
+                    <div class="head-tile wow slideInRight" data-wow-delay="0.3s">
                         <h2>You can email and call me directly:</h2>
                     </div>
-                    <div class="contact-tile wow fadeInRight">
+                    <div class="contact-tile wow slideInRight" data-wow-delay="0.5s">
                         <h4>My email: yurazinko@ukr.net</h4>
                         <h4>My phone number: +38 096 656 07 06</h4>
                         <h4>My Skype-name: yzinko</h4>
                     </div>
-                    <div class="contact-tile wow fadeInRightBig">
+                    <div class="contact-tile wow slideInRight" data-wow-delay="0.7s">
                         <h2>Also you can find me in these social networks and specialized resources:</h2>
                     </div>
-                    <div class="social-networks wow slideInUp">
-                    <a class="tile-box-small button" href="#">
-                        <span class="tile-label-small">Facebook</span>
-                        <img class="tile-icon-small" src="img/icons/sites/facebook-icon.png" alt="Facebook icon">
-                    </a>
-                    <a class="tile-box-small button" href="#">
-                        <span class="tile-label-small">Twitter</span>
-                        <img class="tile-icon-small" src="img/icons/twitter-icon.png" alt="Twitter icon">
-                    </a>
-                    <a class="tile-box-small button" href="#">
-                        <span class="tile-label-small">LiveJournal</span>
-                        <img class="tile-icon-small" src="#" alt="LiveJournal icon">
-                    </a>
-                    <a class="tile-box-small button" href="#">
-                        <span class="tile-label-small">Google+</span>
-                        <img class="tile-icon-small" src="#" alt="Google+ icon">
-                    </a>
-                    <a class="tile-box-small button" href="#">
-                        <span class="tile-label-small">LinkedIn</span>
-                        <img class="tile-icon-small" src="img/icons/sites/linkedin-icon.png" alt="LinkedIn icon">
-                    </a>
-                    <a class="tile-box-small button" href="#">
-                        <span class="tile-label-small">GitHub</span>
-                        <img class="tile-icon-small" src="img/icons/sites/github-icon.png" alt="GitHub icon">
-                    </a>
+                    <div class="social-networks wow slideInUp" data-wow-delay="1s">
+                        <a class="tile-box-small button" href="#">
+                            <span class="tile-label-small">Facebook</span>
+                            <img class="tile-icon-small" src="img/icons/sites/facebook-icon.png" alt="Facebook icon">
+                        </a>
+                        <a class="tile-box-small button" href="#">
+                            <span class="tile-label-small">Twitter</span>
+                            <img class="tile-icon-small" src="img/icons/twitter-icon.png" alt="Twitter icon">
+                        </a>
+                        <a class="tile-box-small button" href="#">
+                            <span class="tile-label-small">LiveJournal</span>
+                            <img class="tile-icon-small" src="#" alt="LiveJournal icon">
+                        </a>
+                        <a class="tile-box-small button" href="#">
+                            <span class="tile-label-small">Google+</span>
+                            <img class="tile-icon-small" src="#" alt="Google+ icon">
+                        </a>
+                        <a class="tile-box-small button" href="#">
+                            <span class="tile-label-small">LinkedIn</span>
+                            <img class="tile-icon-small" src="img/icons/sites/linkedin-icon.png" alt="LinkedIn icon">
+                        </a>
+                        <a class="tile-box-small button" href="#">
+                            <span class="tile-label-small">GitHub</span>
+                            <img class="tile-icon-small" src="img/icons/sites/github-icon.png" alt="GitHub icon">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -285,7 +301,7 @@
 
     </article>
     <footer>
-        Made by hands in 2016
+     © Yurii Zinko | Made by hands in 2016
 
         <a href="#" id="prev"><img class="arrow-up" src="img/icons/arrow-up.png" alt="Scroll Previous" /></a>
         <a href="#" id="next"><img class="arrow-down" src="img/icons/arrow-down.png" alt="Scroll Next" /></a>
@@ -299,7 +315,9 @@
     <script type="text/javascript" src="jquery-scroll-to/jquery.scrollTo.min.js"></script>
     <script type="text/javascript" src="css3-animate-it-master/js/css3-animate-it.js"></script>
     <script src="wow.min.js"></script>
-    <script> new WOW().init();</script>
+    <script>
+        new WOW().init();
+    </script>
     <script type="text/javascript" src="main.js"></script>
 </body>
 
