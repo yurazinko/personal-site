@@ -105,7 +105,7 @@ body {
     }
 }
 
-@media only screen and (min-width:900px) {
+@media only screen and (min-width:800px) {
     /* for regular screens*/
     div#tile-menu {
         padding-top: 300px;
@@ -119,13 +119,13 @@ body {
         height: 800px;
     }
     a.abouts {
-        transform: translate(0px, -160px);
+        transform: translate(0px, -170px);
     }
     a.works {
         transform: translate(0px, -80px);
     }
     a.books {
-        transform: translate(0px, -160px);
+        transform: translate(0px, -165px);
     }
     a.contacts {
         transform: translate(0px, -80px);
@@ -136,6 +136,19 @@ body {
     .block-second {
         width: 49%;
         float: right;
+    }
+    
+    .linkedin-home {
+        position:absolute;
+        transform: translate(675px, -5px);
+    }
+    .facebook-home {
+        position:absolute;
+        transform: translate(165px, -175px);
+    }
+    .github-home {
+        position:absolute;
+        transform: translate(760px, 77px);
     }
 }
 
@@ -166,6 +179,16 @@ body {
     }
     #works {
         margin-top: 320px;
+    }
+    
+    
+}
+
+@media only screen and (max-width:980px){
+    a.linkedin-home, a.facebook-home, a.github-home {
+        width: 0;
+        height:0;
+        display:none;
     }
 }
 
