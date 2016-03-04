@@ -68,16 +68,11 @@ body {
     }
 }
 
-
-
-
-
 @media only screen and (min-height:780px) {
     .tiles-about-big {
         position: absolute;
         transform: translate(80px, 70px);
     }
-    
     .tiles-portfolio {
         height: 950px;
     }
@@ -133,17 +128,16 @@ body {
         width: 49%;
         float: right;
     }
-    
     .linkedin-home {
-        position:absolute;
+        position: absolute;
         transform: translate(675px, -5px);
     }
     .facebook-home {
-        position:absolute;
+        position: absolute;
         transform: translate(505px, -95px);
     }
     .github-home {
-        position:absolute;
+        position: absolute;
         transform: translate(760px, 77px);
     }
 }
@@ -176,15 +170,13 @@ body {
     #works {
         margin-top: 320px;
     }
-    
-    
 }
 
-@media only screen and (max-width:980px){
+@media only screen and (max-width:980px) {
     a.linkedin-home, a.facebook-home, a.github-home {
         width: 0;
-        height:0;
-        display:none;
+        height: 0;
+        display: none;
     }
 }
 
@@ -196,7 +188,6 @@ body {
 }
 
 @media only screen and (min-width:970px) and (min-height:780) {
-    
     a.linkedin {
         transform: translate(0px, -80px);
     }
@@ -705,22 +696,63 @@ textarea {
     opacity: 0.9;
 }
 
-
-.social-networks{
-	display:inline-block;
+.social-networks {
+    display: inline-block;
 }
 
 textarea {
-    position:relative;
-    left:5px;
+    position: relative;
+    left: 5px;
 }
 
 .btn-primary {
-    background-color:#ffffff;
-    font-weight:bold;
-    color:#484848;
+    background-color: #ffffff;
+    font-weight: bold;
+    color: #484848;
 }
 
 .btn-primary:hover {
-    background-color:#505050 ;
+    background-color: #505050;
+}
+
+
+/* GENERAL STYLES OF SKILLS*/
+
+.pad-bottom {
+    padding-bottom: 40px;
+}
+
+
+/* PIE CHART STYLES */
+
+.chart {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    /* SHOUL BE EQUAL - Like 200px */
+    height: 200px;
+    /* SHOUL BE EQUAL - Like 200px */
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.percent {
+    display: inline-block;
+    line-height: 200px;
+    /* SHOUL BE EQUAL - Like 200px */
+    z-index: 2;
+    font-size: 2em;
+}
+
+.percent:after {
+    content: '%';
+    margin-left: 0.1em;
+    font-size: 1em;
 }
