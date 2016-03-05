@@ -12,6 +12,7 @@ body {
 
 }
 
+
 @media only screen and (min-width: 1370px) {
     /* for ladge screens*/
     div#tile-menu {
@@ -757,3 +758,6 @@ textarea {
     margin-left: 0.1em;
     font-size: 1em;
 }
+
+
+
