@@ -133,7 +133,7 @@ body {
     }
     .linkedin-home {
         position: absolute;
-        transform: translate(672px, -2px);
+        transform: translate(677px, -2px);
     }
     .facebook-home {
         position: absolute;
@@ -273,7 +273,7 @@ body {
     }
 }
 
-div {}
+
 
 h1 {
     color: #ffffff;
@@ -504,6 +504,13 @@ footer {
 
 
 /* BEGIN elements*/
+
+.nav-icon {
+    width: 25px;
+    height: 25px;
+    margin-bottom:20px;
+   opacity:0.7;
+}
 
 .personal-photo {
     display: flex-box;
