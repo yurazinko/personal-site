@@ -512,6 +512,10 @@ footer {
    opacity:0.7;
 }
 
+.nav-icon:hover {
+    opacity:0.9;
+}
+
 .personal-photo {
     display: flex-box;
     width: 23%;
