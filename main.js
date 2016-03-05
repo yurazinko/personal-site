@@ -68,5 +68,5 @@ $(function() {
 
 });
 
-//Animation effects
+//Paralax effects
 
