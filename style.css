@@ -74,7 +74,7 @@ body {
 @media only screen and (min-height:780px) {
     .tiles-about-big {
         position: absolute;
-        transform: translate(80px, 70px);
+        transform: translate(80px, 50px);
     }
     .tiles-portfolio {
         height: 950px;
