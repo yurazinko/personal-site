@@ -262,14 +262,14 @@ body {
     }
     #contact {
         position: absolute;
-        margin-top: 2650px;
+        margin-top: 2950px;
         padding-top: 200px;
         display: inline-block;
         width: 100%;
     }
     footer {
         position: absolute;
-        margin-top: 4000px;
+        margin-top: 4020px;
     }
 }
 
