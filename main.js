@@ -1,5 +1,4 @@
 // hide navigation menu on top
-// hide navigation menu on top
 $(function(f) {
     var element = f('.navbar');
     f(window).scroll(function() {
@@ -32,11 +31,6 @@ $('.toggle').click(function (event) {
 
 function scrollToPosition(element) {
     $.scrollTo(element, 800);
-    // if (element !== undefined) {
-    //     $(".wrap").scrollTo(element, 800, {
-    //         margin: true
-    //     });
-    // }
 }
 
 $(function() {
@@ -68,5 +62,4 @@ $(function() {
 
 });
 
-//Paralax effects
 
